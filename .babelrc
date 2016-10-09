@@ -1,0 +1,17 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": ["transform-runtime"],
+  "env": {
+    "test": {
+      "plugins": [
+        [
+          "babel-plugin-webpack-loaders",
+          {
+            "config": "./webpack.config.js",
+            "verbose": false
+          }
+        ]
+      ]
+    }
+  }
+}

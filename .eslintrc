@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "commonjs": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "import/default": 0,
+    "import/no-duplicates": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/no-underscore-dangle": 0,
+    "import/no-unresolved": 0,
+  },
+  "plugins": [
+    "react", "import"
+  ],
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "client"]
+    }
+  }
+}

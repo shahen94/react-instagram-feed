@@ -1,0 +1,1 @@
+export { FeedItemModal } from './FeedItemModal';
