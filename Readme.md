@@ -1,5 +1,5 @@
 
-# React-Redux Cool Boilerplate
+# React-Redux Instagram Feed Example
 
 ## Contains
 
